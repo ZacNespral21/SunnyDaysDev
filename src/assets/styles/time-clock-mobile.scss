@@ -1,0 +1,18 @@
+.time-clock-mobile{
+  color: #ffffff !important;
+  &.table {
+    color: #ffffff !important;
+  }
+
+  &.float-left {
+    float: left;
+  }
+
+  &.headings {
+    font-weight: bold;
+  }
+
+  &.punch-type {
+    width: 95%;
+  }
+}

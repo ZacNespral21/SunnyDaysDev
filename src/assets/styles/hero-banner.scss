@@ -1,0 +1,30 @@
+.hero {
+  &.short{
+    height: 20vh;
+  }
+  height: 30vh;
+  background-color: #1C8EF9;
+  position: relative;
+  overflow: visible;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeIn 5s;
+  z-index: 1;
+  // font-size: 50px;
+  // font-size: 3.4rem;
+  // position: absolute;
+  // top: 10.5rem;
+  // left: 10%;
+  // opacity: 0;
+  // color: #F0A3BE;
+  // animation-name: fadeInOut;
+  // animation-delay: 8.5s;
+  // animation-duration: 9s;
+}
