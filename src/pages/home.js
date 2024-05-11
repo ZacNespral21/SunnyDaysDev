@@ -1,11 +1,14 @@
 import React from 'react';
 import { NavigationBar, FooterDesktop } from '@core';
-import HomeComp from 'components/home2.component';
+// import { BrowserView, MobileView } from 'react-device-detect';
+import HomeComp from 'components/home.component';
 
-function Jobs() {
+function Home() {
   return <>
-    <HomeComp />
+    <NavigationBar />
+      <HomeComp />
+    <FooterDesktop />
   </>
 }
 
-export default Jobs;
+export default Home;

@@ -1,0 +1,11 @@
+@import '../colors';
+
+.btn-theme-primary{
+  color: $primaryOrangeText !important;
+  background-color: $primaryOrange !important;
+}
+
+.btn-theme-offset-primary {
+  color: $primaryOrangeOffsetText !important;
+  background-color: $primaryOrangeOffset !important;
+}

@@ -1,9 +1,19 @@
+@import './assets/styles/_colors';
 @import './assets/styles/overrides.scss';
+
+//Global Theme Specific Styling
+@import './assets/styles/global/btns.scss';
+
 .mobile-system{
-  background: #F39237 !important;
+  background: $primaryOrange !important;
+}
+
+.dropdown-item:active{
+  background-color: $primaryOrange !important;
 }
 
 body {
+  // background-color: #e4e5e6 !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -41,7 +51,7 @@ code {
   width: 100%;
   height: 70px;
   line-height: 70px;
-  background-color: #F39237;
+  background-color: $primaryOrange;
   border-top: 1px solid white;
   border-radius: .75rem;
 
@@ -68,8 +78,35 @@ code {
   /* background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)) */
 }
 
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.text-success {
+  color: #00bb42 !important;
+}
+
+.text-muted {
+  color: #9fa8b9 !important;
+}
+
+.custom-actions-btns {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-actions-btns .btn {
+  margin: .3rem 0 .3rem .3rem;
+}
+
 .bg-blue-custom{
-  background: #F39237 !important;
+  background: $primaryOrange !important;
 }
 
 .navbar-default {

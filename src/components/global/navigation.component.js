@@ -72,12 +72,12 @@ function NavigationBar() {
                 <li><a className="dropdown-item" href="/notifications">Notifications</a></li>
                 <li><a className="dropdown-item" href="/invoice">Invoice</a></li>
                 <li><a className="dropdown-item" href="/profile">Profile</a></li>
+                <li><a className="dropdown-item" href="/profile/trips">Trips</a></li>
+                <li><a className="dropdown-item" href="/profile/favorites">Favorites</a></li>
                 <li><a className="dropdown-item" href="/account">Account</a></li>
-                <li><a className="dropdown-item" href="/receipt">Receipt</a></li>
-                <li><a className="dropdown-item" href="/jobs/listings">Job Listings</a></li>
-                <li><a className="dropdown-item" href="/jobs/new">Job Posting Form</a></li>
-                <li><a className="dropdown-item" href="/license/management">License Management</a></li>
-                <li><a className="dropdown-item" href="/license/listing">License Listing</a></li>
+                <li><a className="dropdown-item" href="/account/billing">Billing</a></li>
+                <li><a className="dropdown-item" href="/account/notifications">Notifications</a></li>
+                <li><a className="dropdown-item" href="/account/security">Security</a></li>
               </ul>
             </li> */}
             {!loggedIn ?
@@ -88,31 +88,27 @@ function NavigationBar() {
               </> : 
               <>
                 <li className="nav-item">
-                  <a className="nav-link mx-2" href='/trips'>My Trips</a>
+                  <a className="nav-link mx-2" href='/profile/upcoming-trips'>Upcoming Trips</a>
                 </li>
-                {/* <li className="nav-item">
-                  <a className="nav-link mx-2" href='/jobs'>Find Jobs</a>
-                </li> */}
-                {/* <li className="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <a className="nav-link mx-2 dropdown-toggle" href="/#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Connect
+                    Profile
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a className="dropdown-item" href="/connect/find-jobs">Find Jobs</a></li>
-                    <li><a className="dropdown-item" href="/connect/time-sheet">Time Sheet</a></li>
-                    <li><a className="dropdown-item" href="/connect/time-check">Time Check</a></li>
-                    <li><a className="dropdown-item" href="/connect/weekly-schedule">Weekly Schedule</a></li>
+                    <li><a className="dropdown-item" href="/profile">Search & Alerts</a></li>
+                    <li><a className="dropdown-item" href="/profile/favorites">Favorite Trips</a></li>
+                    <li><a className="dropdown-item" href="/profile/trips">Trip History</a></li>
                   </ul>
-                </li> */}
+                </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link mx-2 dropdown-toggle" href="/#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Account
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a className="dropdown-item" href="/account">Profile</a></li>
+                    <li><a className="dropdown-item" href="/account">Settings</a></li>
+                    <li><a className="dropdown-item" href="/account/security">Security</a></li>
+                    {/* <li><a className="dropdown-item" href="/account/notifications">Notifications</a></li> */}
                     <li><a className="dropdown-item" href="/account/billing">Billing</a></li>
-                    <li><a className="dropdown-item" href="/account/job-history">Job History</a></li>
-                    {/* <li><a className="dropdown-item" href="/admin">Admin</a></li> */}
                     <li><a className="dropdown-item" href="/#" onClick={handleLogout}>Sign Out</a></li>
                   </ul>
                 </li>

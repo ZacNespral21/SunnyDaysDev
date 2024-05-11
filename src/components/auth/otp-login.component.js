@@ -7,6 +7,7 @@ import PhoneInput from 'react-phone-number-input/input'
 // Import Assets & Styling
 import logo from 'assets/logo-no-background.png';
 import 'react-phone-number-input/style.css';
+import 'react-international-phone/style.css';
 
 function OTPLogin(){
   const [loading, setLoading] = useState(false);
@@ -22,6 +23,7 @@ function OTPLogin(){
     })
 
     if (error) {
+      console.log(error)
       alert(error.message)
     } else {
       window.location.href = "/otp?phone=" + phoneNum;

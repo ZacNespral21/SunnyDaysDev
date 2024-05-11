@@ -1,0 +1,30 @@
+@import '../_colors';
+
+.hero {
+  &.short{
+    height: 20vh;
+  }
+  &.theme-short{
+    height: 30vh;
+  }
+  height: 40vh;
+  background-color: $primaryOrange;
+  position: relative;
+  overflow: visible;
+  font-family: "Montserrat", sans-serif;
+}
+
+//Home Page Hero Content Section Animation
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+//Disabled Animation
+  // animation: fadeIn 5s;
+  // animation-name: fadeInOut;
+  // animation-delay: 8.5s;
+  // animation-duration: 9s;
+}

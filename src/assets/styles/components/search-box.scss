@@ -1,0 +1,41 @@
+@import '../colors';
+
+.departure-field{
+
+}
+
+.exchange-field{
+  margin-top: 2%;
+}
+
+.destination-field{
+  // margin-left: 2%;
+}
+
+#demo-simple-select{
+  color: #ffffff;
+  padding: 2px 32px 2px 2px !important;
+}
+
+#demo-simple-select-2 {
+  color: #ffffff;
+  padding: 2px 32px 2px 2px !important;
+}
+
+.search-box-btn-container{
+  position: relative;
+  top: 10px;
+}
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.search-box-card-body{
+  height: 215px !important;
+}

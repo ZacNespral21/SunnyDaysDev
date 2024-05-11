@@ -1,0 +1,32 @@
+@import '../_colors';
+
+.footer-desktop {
+  padding: 2.5%;
+  width: 100%;
+  background-color: $primaryOrange;
+
+  h5{
+    color: #ffffff;
+  }
+
+  ul{
+    padding-left: 0px !important;
+  }
+
+  ul > li {
+    padding: 1%;
+    list-style-type: none;
+  }
+
+  .gplay-store-logo-icon{
+    width: 70%;
+  }
+
+  .app-store-logo-icon{
+    width: 60%;
+  }
+
+  .trademark{
+    color: #ffffff;
+  }
+}
