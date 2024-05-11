@@ -79,6 +79,8 @@ function SearchBox() {
                     onChange={handleChange}
                   >
                     <MenuItem value='round-trip'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />1</MenuItem>
+                    <MenuItem value='round-trip'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />2</MenuItem>
+                    <MenuItem value='round-trip'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />3+</MenuItem>
                   </Select>
                 </div>
               </div>
