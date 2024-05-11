@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import { isMobile } from 'react-device-detect';
-import { supaBase } from '@core';
+import { LoadingSpinner, SetGeoLocation, GetGeoLocation } from '@core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExchange, faCalendar, faSearch, faPerson, faUser, faPlaneDeparture, faArrorRightLong } from '@fortawesome/free-solid-svg-icons'
 import DatePicker from "react-datepicker";
@@ -78,9 +78,9 @@ function SearchBox() {
                     label="Age"
                     onChange={handleChange}
                   >
-                    <MenuItem value='round-trip'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />1</MenuItem>
-                    <MenuItem value='round-trip'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />2</MenuItem>
-                    <MenuItem value='round-trip'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />3+</MenuItem>
+                    <MenuItem value='one'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />1</MenuItem>
+                    <MenuItem value='couple'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />2</MenuItem>
+                    <MenuItem value='multiple'><FontAwesomeIcon icon={faUser} size="lg" className="mx-2" />3+</MenuItem>
                   </Select>
                 </div>
               </div>
