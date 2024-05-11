@@ -74,7 +74,7 @@ function SearchBox() {
                   <Select sx={{ boxShadow: 'none', '.MuiOutlinedInput-notchedOutline': { border: 0, outline: 0 }, '.MuiOutlinedInput-notchedOutline:focus-visible': { outline: 0 } }}
                     labelId="demo-simple-select-label"
                     id="demo-simple-select-2"
-                    value="round-trip"
+                    value="one"
                     label="Age"
                     onChange={handleChange}
                   >
