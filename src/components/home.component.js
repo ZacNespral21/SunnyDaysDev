@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlane, faBed, faSun } from '@fortawesome/free-solid-svg-icons';
 import SearchBoxComp from './search-box.component';
 import MapBoxComp from './map-box.component';
-import TripleMapBoxComp from './triple-map-box.component';
+// import TripleMapBoxComp from './triple-map-box.component';
 
 function HomeComp() {
   return <>

@@ -10,7 +10,7 @@ export default class UserProfile extends Component {
           <div className="row">
             <nav className="nav nav-borders">
               <a className="nav-link active ms-0" href="/account">Account</a>
-              <a className="nav-link" href="/account/billing">Billing</a>
+              {/* <a className="nav-link" href="/account/billing">Billing</a> */}
               <a className="nav-link" href="/account/security">Security</a>
               <a className="nav-link" href="/account/notifications">Notifications</a>
             </nav>
@@ -40,10 +40,10 @@ export default class UserProfile extends Component {
                   <div className="card-header">Account Details</div>
                   <div className="card-body">
                     <form>
-                      <div className="mb-3">
+                      {/* <div className="mb-3">
                         <label className="small mb-1">Username (how your name will appear to other users on the site)</label>
                         <input className="form-control" id="inputUsername" type="text" placeholder="Enter your username" />
-                      </div>
+                      </div> */}
                       <div className="row gx-3 mb-3">
                         <div className="col-md-6">
                           <label className="small mb-1">First name</label>

@@ -108,7 +108,7 @@ function NavigationBar() {
                     <li><a className="dropdown-item" href="/account">Settings</a></li>
                     <li><a className="dropdown-item" href="/account/security">Security</a></li>
                     {/* <li><a className="dropdown-item" href="/account/notifications">Notifications</a></li> */}
-                    <li><a className="dropdown-item" href="/account/billing">Billing</a></li>
+                    {/* <li><a className="dropdown-item" href="/account/billing">Billing</a></li> */}
                     <li><a className="dropdown-item" href="/#" onClick={handleLogout}>Sign Out</a></li>
                   </ul>
                 </li>

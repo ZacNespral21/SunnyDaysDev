@@ -9,7 +9,7 @@ export default class UserProfileBilling extends Component {
         <div className="row">
           <nav className="nav nav-borders">
             <a className="nav-link ms-0" href="/account">Profile</a>
-            <a className="nav-link active" href="/account/billing">Billing</a>
+            {/* <a className="nav-link active" href="/account/billing">Billing</a> */}
             <a className="nav-link" href="/account/security">Security</a>
             <a className="nav-link" href="/account/notifications">Notifications</a>
           </nav>

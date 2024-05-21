@@ -9,33 +9,13 @@ export default class UserProfileSecurity extends Component {
         <div className="row">
           <nav className="nav nav-borders">
             <a className="nav-link ms-0" href="/account">Profile</a>
-            <a className="nav-link" href="/account/billing">Billing</a>
+            {/* <a className="nav-link" href="/account/billing">Billing</a> */}
             <a className="nav-link active" href="/account/security">Security</a>
             <a className="nav-link" href="/account/notifications">Notifications</a>
           </nav>
           <hr className="mt-0 mb-4" />
           <div className="row">
             <div className="col-lg-8">
-              <div className="card mb-4">
-                <div className="card-header">Change Password</div>
-                <div className="card-body">
-                  <form>
-                    <div className="mb-3">
-                      <label className="small mb-1" for="currentPassword">Current Password</label>
-                      <input className="form-control" id="currentPassword" type="password" placeholder="Enter current password" />
-                    </div>
-                    <div className="mb-3">
-                      <label className="small mb-1" for="newPassword">New Password</label>
-                      <input className="form-control" id="newPassword" type="password" placeholder="Enter new password" />
-                    </div>
-                    <div className="mb-3">
-                      <label className="small mb-1" for="confirmPassword">Confirm Password</label>
-                      <input className="form-control" id="confirmPassword" type="password" placeholder="Confirm new password" />
-                    </div>
-                    <button className="btn btn-theme-offset-primary" type="button">Save</button>
-                  </form>
-                </div>
-              </div>
               <div className="card mb-4">
                 <div className="card-header">Security Preferences</div>
                 <div className="card-body">
